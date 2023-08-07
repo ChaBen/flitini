@@ -22,9 +22,9 @@ const questionData = [
     type: 'row',
   },
 ]
-function itemClick(event) {
+function itemClick(event: any) {
   const items = event.target.parentElement.querySelectorAll('.question-item')
-  items.forEach((item) => {
+  items.forEach((item: any) => {
     item.classList.remove('is-animated')
   })
   event.target.classList.add('is-animated')
@@ -33,6 +33,7 @@ function itemClick(event) {
     async () => {
       const regForm = document.querySelector('.reg-form')
       counter.increment()
+      if (regForm === null) return
       regForm.classList.add('is-animated-next')
       await new Promise((resolve) => setTimeout(resolve, 250))
       regForm.classList.remove('is-animated-next')
@@ -63,7 +64,7 @@ function itemClick(event) {
               <div
                 v-for="quetion of item.questions"
                 class="question-item"
-                @click="itemClick($event, item)"
+                @click="itemClick($event)"
               >
                 <p class="question-title">{{ quetion }}</p>
               </div>
@@ -625,7 +626,6 @@ main .center {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   display: inline-block;
   margin: 0 2px;
   padding: 3px 5px;
