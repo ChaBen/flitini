@@ -321,7 +321,7 @@ main .center {
 [data-quiz-step-index='2'] .question-item:nth-child(3) {
   background-image: url(/image/question-bg2-3.webp), var(--gradient-primary);
 }
-
+/* 
 [data-quiz-step-index='3'] .question-item:nth-child(1) {
   background-image: url(/landing/resource/id/6346aa8ea75aefe39e4edf4b9336d54c.png),
     var(--gradient-primary);
@@ -342,13 +342,6 @@ main .center {
     var(--gradient-success);
 }
 
-[data-quiz-step-index='4'] .question-item:nth-child(1):after {
-  background-image: url(/landing/resource/id/c9f991d77cd8ce86539fab07641c65b7.png),
-    url(/landing/resource/id/27c22f49b6be3948e5a9542869bfa041.png),
-    url(/landing/resource/id/a8e0f0c5e02e61f1d1c4a2bc5df38e91.png),
-    url(/landing/resource/id/37640cc389bd90a64e753b90fa13e8d6.png);
-}
-
 [data-quiz-step-index='4'] .question-item:nth-child(2) {
   background-image: url(/landing/resource/id/c621d658df7d9881d1ff6783af83c861.png),
     var(--gradient-primary);
@@ -357,13 +350,6 @@ main .center {
 [data-quiz-step-index='5'] .question-item:nth-child(1) {
   background-image: url(/landing/resource/id/c9f991d77cd8ce86539fab07641c65b7.png),
     var(--gradient-accent);
-}
-
-[data-quiz-step-index='5'] .question-item:nth-child(1):after {
-  background-image: url(/landing/resource/id/f3112d6baeb514e64ed8982b62874db4.webp),
-    url(/landing/resource/id/65bd30e93053facc839979fd066bbb55.png),
-    url(/landing/resource/id/72b1408c6338903185fbe0a6f8439839.png),
-    url(/landing/resource/id/0b2bfa074e59f6f00da1298214d43cc6.png);
 }
 
 [data-quiz-step-index='5'] .question-item:nth-child(2) {
@@ -386,11 +372,6 @@ main .center {
     var(--gradient-primary);
 }
 
-[data-quiz-step-index='6'] .question-item:nth-child(1):after {
-  background-image: url(/landing/resource/id/c5f6000e72c1155924fa372d6168d25e.png),
-    url(/landing/resource/id/a8e2c11294668f0985c411f30925b3f1.png);
-}
-
 [data-quiz-step-index='6'] .question-item:nth-child(2) {
   background-image: url(/landing/resource/id/65bd30e93053facc839979fd066bbb55.png),
     var(--gradient-accent-2);
@@ -409,13 +390,6 @@ main .center {
 [data-quiz-step-index='7'] .question-item:nth-child(1) {
   background-image: url(/landing/resource/id/c5f6000e72c1155924fa372d6168d25e.png),
     var(--gradient-primary);
-}
-
-[data-quiz-step-index='7'] .question-item:nth-child(1):after {
-  background-image: url(/landing/resource/id/17d23bb7e810671d0fb841c0217352e4.png),
-    url(/landing/resource/id/d029b335c78539340f414af598daa679.png),
-    url(/landing/resource/id/99cf6c172fdd39cfb4f101faa3af1375.png),
-    url(/landing/resource/id/fcf08a272b25e3c0f61ea53447eba6a8.png);
 }
 
 [data-quiz-step-index='7'] .question-item:nth-child(2) {
@@ -481,7 +455,7 @@ main .center {
 [data-quiz-step-index='10'] .question-item:nth-child(4) {
   background-image: url(/landing/resource/id/8acd15a21f609ad83af4c9e43790e20c.png),
     var(--gradient-accent);
-}
+} */
 
 [data-step-name='loader'] {
   padding: 0 0 50px;
