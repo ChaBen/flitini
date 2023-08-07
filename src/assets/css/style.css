@@ -1,0 +1,36 @@
+:root {
+  --primary: #18181e;
+  --accent: #ed56ff;
+  --header: #18181e;
+  --success: #15daab;
+  --danger: #ff5468;
+  --warning: #fec01a;
+  --gradient-primary: linear-gradient(113.21deg, #8256ff 5.58%, #fd56ff 100%);
+  --gradient-success: linear-gradient(112.24deg, #2aa1a9 5.01%, #a6d550 98.46%);
+  --gradient-accent: linear-gradient(112.78deg, #5364ff 5%, #65beff 100%);
+  --gradient-accent-2: linear-gradient(101.7deg, #fd56ff 0%, #ffa5cb 100%);
+  --dark: #000;
+  --light: #fff;
+  --input-bg: #2b2f2c;
+  --light-muted: rgba(255, 255, 255, 0.5);
+  --grey: #b8b8b8;
+  --font: 'Mulish', 'Helvetica', sans-serif;
+  --transition: all 0.2s linear;
+  --radius: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--header) url(/image/bg.webp) center top no-repeat;
+  color: white;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  padding: 0 20px;
+}
