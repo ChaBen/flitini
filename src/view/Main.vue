@@ -71,11 +71,7 @@ function itemClick(event: any) {
             </div>
           </div>
 
-          <div
-            class="form-step-item"
-            data-step-name="getapp"
-            data-quiz-step-index="12"
-          >
+          <div :class="`form-step-item ${counter.step === 3 && 'is-active'}`">
             <div class="girls-number">
               <span class="j-gen-1">8</span>
               <span class="j-gen-2">3</span>
@@ -84,11 +80,7 @@ function itemClick(event: any) {
               GIRLS
               <span>you will probably admire:</span>
             </div>
-            <img
-              src="/landing/resource/id/606d3c73829f447caa65af0d949e13e0.webp"
-              alt=""
-              class="step-img"
-            />
+            <img src="/image/complate.webp" alt="" class="step-img" />
             <a
               href="https://flirtiniapp.onelink.me/NwHS?af_js_web=true&amp;af_ss_ver=2&amp;pid=w2a_snap&amp;c=sc_w2a_ios_usa_m_reg_MarissaСlone2&amp;af_ad=70864_s_faces_inst_359_3&amp;af_adset=quizcas_reg_Marissa_28.06"
               tabindex="0"

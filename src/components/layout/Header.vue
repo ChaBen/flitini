@@ -28,7 +28,7 @@ const counter = useStepCounter()
       <div class="progress-block">
         <span
           class="progress-line"
-          :style="`width: ${counter.step * 33}%`"
+          :style="`width: ${counter.step * 25}%`"
         ></span>
       </div>
     </div>
